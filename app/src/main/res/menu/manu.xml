@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_bus"
+        android:title="Track Bus"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/book"
+        android:icon="@drawable/ic_baseline_book_online_24"
+        android:title="Stops"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/booking"
+        android:icon="@drawable/ic_booking"
+        android:title="Booking"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+
+</menu>
